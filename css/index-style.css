@@ -1,0 +1,15 @@
+main{
+    margin-top: 40px;
+    margin-left: 10%;
+    width: 70%;
+}
+
+#sc{
+    width: 100%;
+}
+
+#county-selector{
+    width: 200px;
+    height: 2em;
+    font-size: 1.2em;
+}

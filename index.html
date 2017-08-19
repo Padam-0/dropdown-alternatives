@@ -1,2 +1,63 @@
-<div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dropdown Alternatives</title>
+
+        <link href="css/polyfill.css" rel="stylesheet">
+        <link href="css/seg-control.css" rel="stylesheet">
+        <link href="css/index-style.css" rel="stylesheet">
+        <script src="js/jquery-3.2.1.min.js"></script>
+
+    </head>
+    <body>
+        <main>
+            <div class="segmented-control" id="sc">
+                <input type="radio" name="sc-5" id="sc-5-1-1" checked>
+                <input type="radio" name="sc-5" id="sc-5-1-2">
+                <input type="radio" name="sc-5" id="sc-5-1-3">
+                <input type="radio" name="sc-5" id="sc-5-1-4">
+                <input type="radio" name="sc-5" id="sc-5-1-5">
+
+                <label for="sc-5-1-1" data-value="Map">Map</label>
+                <label for="sc-5-1-2" data-value="Radius">Radius</label>
+                <label for="sc-5-1-3" data-value="County">County</label>
+                <label for="sc-5-1-4" data-value="Region">Region</label>
+                <label for="sc-5-1-5" data-value="Country">Country</label>
+            </div>
+            <hr>
+            <div>
+                <datalist id="counties">
+                    <option value="Carlow">Carlow</option>
+                    <option value="Cavan">Cavan</option>
+                    <option value="Clare">Clare</option>
+                    <option value="Cork">Cork</option>
+                    <option value="Donegal">Donegal</option>
+                    <option value="Dublin">Dublin</option>
+                    <option value="Galway">Galway</option>
+                    <option value="Kerry">Kerry</option>
+                    <option value="Kildare">Kildare</option>
+                    <option value="Kilkenny">Kilkenny</option>
+                    <option value="Laois">Laois</option>
+                    <option value="Leitrim">Leitrim</option>
+                    <option value="Limerick">Limerick</option>
+                    <option value="Longford">Longford</option>
+                    <option value="Louth">Louth</option>
+                    <option value="Mayo">Mayo</option>
+                    <option value="Meath">Meath</option>
+                    <option value="Monaghan">Monaghan</option>
+                    <option value="Offaly">Offaly</option>
+                    <option value="Roscommon">Roscommon</option>
+                    <option value="Sligo">Sligo</option>
+                    <option value="Tipperary">Tipperary</option>
+                    <option value="Waterford">Waterford</option>
+                    <option value="Westmeath">Westmeath</option>
+                    <option value="Wexford">Wexford</option>
+                    <option value="Wicklow">Wicklow</option>
+                </datalist>
+                <input type="text" list="counties" title="county-selector" id="county-selector" placeholder="Start Typing">
+            </div>
+        </main>
+    </body>
+    <script src="js/datalist.polyfill.min.js"></script>
+</html>
