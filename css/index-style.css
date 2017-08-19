@@ -4,12 +4,38 @@ main{
     width: 70%;
 }
 
-#sc{
+#sc1{
     width: 100%;
+}
+
+#sc2{
+    width: 20%;
 }
 
 #county-selector{
     width: 200px;
     height: 2em;
     font-size: 1.2em;
+}
+
+#btn{
+    margin-left: 40%;
+    height: 40px;
+    width: 120px;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+#result{
+    margin-left: 40%;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: center;
+    color: black;
 }
